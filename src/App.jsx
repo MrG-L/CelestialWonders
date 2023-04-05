@@ -1,10 +1,10 @@
 import './App.css';
-import AstrologicalCard from './components/AstrologicalCard';
+import NavBar from './components/NavBar/NavBar.jsx';
 
 function App() {
   return (
-    <div>
-      <AstrologicalCard />
+    <div className="App">
+      <NavBar />
     </div>
   );
 }
