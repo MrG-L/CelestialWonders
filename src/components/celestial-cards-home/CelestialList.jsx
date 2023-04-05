@@ -1,6 +1,6 @@
 import React from 'react';
 import Celestial from './Celestial';
-import './CelestialLisst.css';
+import './CelestialList.css';
 
 function CelestialList() {
   const trappistOne = {
@@ -31,9 +31,9 @@ function CelestialList() {
     celestialId: 4,
     name: 'The Double Quasar',
     imgSrc:
-      'The Twin Quasar, was discovered in 1979 and was the first identified gravitationally lensed object. It is a quasar that appears as two images, a result from gravitational lensing caused by the galaxy YGKOW G1 that is located directly between Earth and the quasar.',
+      'https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1617825884806.jpg-org',
     description:
-      'TRAPPIST-1 is an ultra-cool red dwarf star in the constellation Aquarius with a planetary system of seven known planets. Its mass is about 9% of the Sun, with a radius slightly larger than the planet Jupiter and a surface temperature of about 2,566 K.',
+      'The Twin Quasar, was discovered in 1979 and was the first identified gravitationally lensed object. It is a quasar that appears as two images, a result from gravitational lensing caused by the galaxy YGKOW G1 that is located directly between Earth and the quasar.',
   };
   const exoplanetKoi5Ab = {
     celestialId: 5,
@@ -83,7 +83,25 @@ function CelestialList() {
       'NGC 1052-DF2 is an ultra diffuse galaxy in the constellation Cetus, which was identified in a wide-field imaging survey of the NGC 1052 group by the Dragonfly Telephoto Array. It has been proposed that the galaxy contains little or no dark matter, the first such discovery.',
   };
 
-  return <div></div>;
+  return (
+    <div className="CelestialList">
+      <h2 className="section-title CelestialList-title">
+        Discover the wonders of the Universe !
+      </h2>
+      <div className="cards-container">
+        <Celestial {...trappistOne} />
+        <Celestial {...roguePlanets} />
+        <Celestial {...hypernovas} />
+        <Celestial {...doubleQuasar} />
+        <Celestial {...exoplanetKoi5Ab} />
+        <Celestial {...omegaCentauri} />
+        <Celestial {...necklaceNebula} />
+        <Celestial {...tabbyStar} />
+        <Celestial {...igrBlackHole} />
+        <Celestial {...df2Galaxy} />
+      </div>
+    </div>
+  );
 }
 
 export default CelestialList;
