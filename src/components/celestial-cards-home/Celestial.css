@@ -4,13 +4,7 @@
   object-fit: cover;
   padding-top: 5px;
   padding-bottom: 1px;
-}
-
-.cardId {
-  text-align: center;
-  background-color: var(--second-color);
   border-radius: 15px 15px 0px 0px;
-  width: 90%;
 }
 
 .Celestial-description {
@@ -18,11 +12,18 @@
   flex-direction: column;
   text-align: center;
   width: 90%;
+  height: 18em;
   color: var(--main-color);
   background-color: var(--second-color);
   border-radius: 0px 0px 15px 15px;
+  justify-content: center;
 }
 
 .Celestial-description span {
   font-size: 1.2em;
+  padding-top: 15px;
+}
+
+.carTitle {
+  justify-content: center;
 }
