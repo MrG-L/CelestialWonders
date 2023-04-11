@@ -14,16 +14,16 @@
   width: 90%;
   justify-content: flex-end;
   margin: auto;
-}
 
-.navigation a {
-  text-decoration: none;
-  color: var(--main-color);
-  width: 20%;
-  text-align: center;
-  font-size: 1.2em;
-}
+  a {
+    text-decoration: none;
+    color: var(--main-color);
+    width: 20%;
+    text-align: center;
+    font-size: 1.2em;
 
-.navigation a:hover {
-  color: var(--fourth-color);
+    &:hover {
+      color: var(--fourth-color);
+    }
+  }
 }

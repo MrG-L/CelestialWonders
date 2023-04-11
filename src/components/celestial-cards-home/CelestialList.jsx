@@ -1,6 +1,6 @@
 import React from 'react';
 import Celestial from './Celestial';
-import './CelestialList.css';
+import './CelestialList.scss';
 
 function CelestialList() {
   const trappistOne = {

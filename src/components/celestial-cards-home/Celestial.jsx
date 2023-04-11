@@ -1,5 +1,5 @@
 import React from 'react';
-import './Celestial.css';
+import './Celestial.scss';
 
 function Celestial({ celestialId, name, imgSrc, description }) {
   return (
