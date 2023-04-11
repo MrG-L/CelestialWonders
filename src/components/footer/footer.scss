@@ -17,19 +17,19 @@
   color: var(--main-color);
   text-align: center;
   font-size: 1.2em;
-}
 
-.footer-column h4 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 .social-links {
   display: flex;
   justify-content: space-around;
   font-size: 1.5em;
-}
 
-.social-links a:hover {
-  color: var(--fourth-color);
+  a:hover {
+    color: var(--fourth-color);
+  }
 }

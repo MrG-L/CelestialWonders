@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import NavBar from './components/NavBar/NavBar';
 import CelestialList from './components/celestial-cards-home/CelestialList';
 import Footer from './components/footer/Footer';
